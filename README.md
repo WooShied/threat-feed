@@ -13,12 +13,12 @@ Every morning a GitHub Action pulls the [CISA Known Exploited Vulnerabilities](h
 Digests live in [`digests/`](digests/), organized by year and month.
 
 <!-- digest:start -->
-**Latest digest: [2026-11-06](digests/2026/11/2026-11-06.md)** · 1,768 KEV entries · 4 new
+**Latest digest: [2026-11-06](digests/2026/11/2026-11-06.md)** · 1,768 KEV entries · 0 new
 
 Highest EPSS right now:
 
-- [CVE-2026-109618](https://nvd.nist.gov/vuln/detail/CVE-2026-109618) PHP Group PHP · >99.9%
 - [CVE-2026-109619](https://nvd.nist.gov/vuln/detail/CVE-2026-109619) PHP Group PHP · >99.9%
+- [CVE-2026-109618](https://nvd.nist.gov/vuln/detail/CVE-2026-109618) PHP Group PHP · >99.9%
 - [CVE-2025-53770](https://nvd.nist.gov/vuln/detail/CVE-2025-53770) Microsoft SharePoint · >99.9%
 - [CVE-2021-26086](https://nvd.nist.gov/vuln/detail/CVE-2021-26086) Atlassian Jira Server and Data Center · >99.9%
 - [CVE-2024-7593](https://nvd.nist.gov/vuln/detail/CVE-2024-7593) Ivanti Virtual Traffic Manager · >99.9%
@@ -49,6 +49,7 @@ python threatfeed.py note "Citrix Bleed still near the top; worth checking any N
 | `threatfeed.py` | Fetching, scoring, digest writing and the command-line interface (standard library only) |
 | `data/kev.json` | Local copy of the catalog with current and previous EPSS scores |
 | `digests/YYYY/MM/YYYY-MM-DD.md` | One digest per day |
+| `site/latest.json` | Small summary the portfolio at wooshied.github.io loads live |
 | `.github/workflows/daily.yml` | Runs tests, then `update`, and commits the result every day at 14:17 UTC |
 | `tests/` | Offline unit tests for merging, scoring and digest output |
 

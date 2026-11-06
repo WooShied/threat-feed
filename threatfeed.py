@@ -24,6 +24,9 @@ DATA = ROOT / "data" / "kev.json"
 STATE = ROOT / "data" / "state.json"
 DIGESTS = ROOT / "digests"
 README = ROOT / "README.md"
+SITE_JSON = ROOT / "site" / "latest.json"
+REPO_URL = "https://github.com/WooShied/threat-feed"
+SITE_SCHEMA = 1
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 EPSS_URL = "https://api.first.org/data/v1/epss?cve="
@@ -279,6 +282,68 @@ def update_readme(day: str, total: int, new_count: int, top: list[dict]) -> None
     README.write_text(head + "\n".join(lines) + tail, encoding="utf-8")
 
 
+# --------------------------------------------------------------------------- site summary
+
+def recent_notes(limit: int = 6, days: int = 30) -> list[dict]:
+    """Analyst notes from the most recent digests, newest first, without timestamps."""
+    notes: list[dict] = []
+    for path in sorted(DIGESTS.glob("*/*/*.md"), reverse=True)[:days]:
+        for line in reversed(existing_notes(path).splitlines()):
+            text = line.strip()
+            if not text.startswith("- "):
+                continue
+            text = text[2:]
+            if len(text) > 6 and text[2] == ":" and text[:2].isdigit() and text[3:5].isdigit():
+                text = text[6:]  # drop the "HH:MM " stamp
+            notes.append({"date": path.stem, "text": text.strip()})
+            if len(notes) >= limit:
+                return notes
+    return notes
+
+
+def compact(r: dict, **extra) -> dict:
+    out = {
+        "cve": r["cve"], "vendor": r["vendor"], "product": r["product"], "name": r["name"],
+        "added": r["added"], "due": r["due"], "ransomware": r["ransomware"],
+        "epss": round(r["epss"], 5) if r.get("epss") is not None else None,
+    }
+    out.update(extra)
+    return out
+
+
+def build_site_summary(records: dict[str, dict], new: list[str], kev_meta: dict, day: date, epss_ok: bool) -> dict:
+    """Small JSON for the portfolio site: everything the live panel needs, nothing more."""
+    rows = list(records.values())
+    start = day - timedelta(days=29)
+    per_day = Counter(r["added"] for r in rows if r["added"] >= start.isoformat())
+    history = [{"date": (start + timedelta(days=i)).isoformat(),
+                "count": per_day.get((start + timedelta(days=i)).isoformat(), 0)} for i in range(30)]
+    recent = sorted(rows, key=lambda r: (r["added"], r["cve"]), reverse=True)[:5]
+    return {
+        "schema": SITE_SCHEMA,
+        "date": day.isoformat(),
+        "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "catalogVersion": kev_meta.get("catalogVersion"),
+        "total": len(rows),
+        "ransomware": sum(r["ransomware"] for r in rows),
+        "epssOk": epss_ok,
+        "new": [compact(records[c]) for c in sorted(new, key=lambda c: records[c].get("epss") or 0, reverse=True)][:8],
+        "recent": [compact(r) for r in recent],
+        "movers": [compact(r, delta=round(d, 5)) for r, d in movers(records)],
+        "top": [compact(r) for r in top_epss(records, 5)],
+        "due": [compact(r) for r in due_within(records, day, 7)][:5],
+        "history": history,
+        "notes": recent_notes(),
+        "digestUrl": f"{REPO_URL}/blob/main/{digest_path(day.isoformat()).relative_to(ROOT).as_posix()}",
+        "repoUrl": REPO_URL,
+    }
+
+
+def write_site_summary(summary: dict) -> None:
+    SITE_JSON.parent.mkdir(parents=True, exist_ok=True)
+    SITE_JSON.write_text(json.dumps(summary, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 # --------------------------------------------------------------------------- commands
 
 def utc_today() -> date:
@@ -310,6 +375,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(build_digest(records, new, kev, today, epss_ok, existing_notes(path)), encoding="utf-8")
     update_readme(day, len(records), len(new), top_epss(records))
+    write_site_summary(build_site_summary(records, new, kev, today, epss_ok))
     save_state({"last_run": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "catalog_version": kev.get("catalogVersion"), "count": len(records)})
     print(f"Wrote {path.relative_to(ROOT).as_posix()}")
@@ -416,6 +482,11 @@ def cmd_note(args: argparse.Namespace) -> int:
     lines = [ln for ln in body.strip().splitlines() if ln.strip() and ln.strip() != "_None yet._"]
     lines.append(f"- {stamp} {note}")
     path.write_text(head + NOTES_HEADING + "\n\n" + "\n".join(lines) + "\n" + sep + footer, encoding="utf-8")
+    # Refresh the notes in the site summary so the portfolio shows them after the next push.
+    if SITE_JSON.exists():
+        summary = json.loads(SITE_JSON.read_text(encoding="utf-8"))
+        summary["notes"] = recent_notes()
+        write_site_summary(summary)
     print(f"Added note to {path.relative_to(ROOT).as_posix()}")
     return 0
 
