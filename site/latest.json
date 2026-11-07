@@ -1,13 +1,34 @@
 {
  "schema": 1,
- "date": "2026-11-06",
- "generated": "2026-11-06T20:26:23+00:00",
- "catalogVersion": "2026.11.04",
- "total": 1768,
+ "date": "2026-11-07",
+ "generated": "2026-11-07T18:44:47+00:00",
+ "catalogVersion": "2026.11.06",
+ "total": 1769,
  "ransomware": 361,
  "epssOk": true,
- "new": [],
+ "new": [
+  {
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "added": "2026-11-06",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "epss": 0.00621
+  }
+ ],
  "recent": [
+  {
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "added": "2026-11-06",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "epss": 0.00621
+  },
   {
    "cve": "CVE-2024-27834",
    "vendor": "Apple",
@@ -47,73 +68,63 @@
    "due": "2026-11-02",
    "ransomware": false,
    "epss": 0.00533
-  },
-  {
-   "cve": "CVE-2026-97229",
-   "vendor": "GitLab",
-   "product": "Community Edition and Enterprise Edition",
-   "name": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-   "added": "2026-10-29",
-   "due": "2026-11-01",
-   "ransomware": false,
-   "epss": 0.6522
   }
  ],
  "movers": [
   {
-   "cve": "CVE-2026-76461",
-   "vendor": "Cisco",
-   "product": "Secure Email Gateway",
-   "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-   "added": "2026-09-14",
-   "due": "2026-09-17",
+   "cve": "CVE-2026-75650",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+   "added": "2026-09-08",
+   "due": "2026-09-11",
    "ransomware": false,
-   "epss": 0.4016,
-   "delta": 0.10617
+   "epss": 0.99376,
+   "delta": 0.64635
   },
   {
-   "cve": "CVE-2025-54948",
-   "vendor": "Trend Micro",
-   "product": "Apex One",
-   "name": "Trend Micro Apex One OS Command Injection Vulnerability",
-   "added": "2025-08-18",
-   "due": "2025-09-08",
-   "ransomware": false,
-   "epss": 0.32872,
-   "delta": 0.0747
+   "cve": "CVE-2026-59310",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
+   "added": "2026-08-18",
+   "due": "2026-08-21",
+   "ransomware": true,
+   "epss": 0.61668,
+   "delta": 0.59103
   },
   {
-   "cve": "CVE-2026-76519",
-   "vendor": "Cisco",
-   "product": "Secure Email Gateway",
-   "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "cve": "CVE-2026-102489",
+   "vendor": "Zammad GmbH",
+   "product": "Zammad",
+   "name": "Zammad GmbH Zammad Session Fixation Vulnerability",
+   "added": "2026-10-02",
+   "due": "2026-10-05",
+   "ransomware": false,
+   "epss": 0.49915,
+   "delta": 0.27437
+  },
+  {
+   "cve": "CVE-2025-41244",
+   "vendor": "Broadcom",
+   "product": "VMware Aria Operations and VMware Tools",
+   "name": "Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability",
+   "added": "2025-10-30",
+   "due": "2025-11-20",
+   "ransomware": false,
+   "epss": 0.15841,
+   "delta": 0.07212
+  },
+  {
+   "cve": "CVE-2026-105133",
+   "vendor": "Ahsay",
+   "product": "AhsayCBS",
+   "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
    "added": "2026-10-14",
    "due": "2026-10-17",
    "ransomware": false,
-   "epss": 0.06227,
-   "delta": 0.04075
-  },
-  {
-   "cve": "CVE-2016-7262",
-   "vendor": "Microsoft",
-   "product": "Excel",
-   "name": "Microsoft Office Security Feature Bypass Vulnerability",
-   "added": "2022-03-03",
-   "due": "2022-03-24",
-   "ransomware": false,
-   "epss": 0.5884,
-   "delta": 0.01107
-  },
-  {
-   "cve": "CVE-2025-67038",
-   "vendor": "Lantronix",
-   "product": "EDS5000",
-   "name": "Lantronix EDS5000 Code Injection Vulnerability",
-   "added": "2026-06-23",
-   "due": "2026-06-26",
-   "ransomware": false,
-   "epss": 0.21146,
-   "delta": 0.0086
+   "epss": 0.84478,
+   "delta": 0.05008
   }
  ],
  "top": [
@@ -170,16 +181,6 @@
  ],
  "due": [
   {
-   "cve": "CVE-2026-119977",
-   "vendor": "WordPress",
-   "product": "WordPress Core",
-   "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-   "added": "2026-11-03",
-   "due": "2026-11-06",
-   "ransomware": false,
-   "epss": 0.01157
-  },
-  {
    "cve": "CVE-2026-48356",
    "vendor": "Adobe",
    "product": "Commerce and Magento",
@@ -221,10 +222,6 @@
   }
  ],
  "history": [
-  {
-   "date": "2026-10-08",
-   "count": 5
-  },
   {
    "date": "2026-10-09",
    "count": 0
@@ -339,6 +336,10 @@
   },
   {
    "date": "2026-11-06",
+   "count": 1
+  },
+  {
+   "date": "2026-11-07",
    "count": 0
   }
  ],
@@ -348,6 +349,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-06.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-07.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
