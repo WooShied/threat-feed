@@ -1,23 +1,12 @@
 {
  "schema": 1,
- "date": "2026-11-07",
- "generated": "2026-11-07T18:44:47+00:00",
+ "date": "2026-11-08",
+ "generated": "2026-11-08T18:49:18+00:00",
  "catalogVersion": "2026.11.06",
  "total": 1769,
  "ransomware": 361,
  "epssOk": true,
- "new": [
-  {
-   "cve": "CVE-2026-19868",
-   "vendor": "SonicWall",
-   "product": "SonicOS SSLVPN",
-   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-   "added": "2026-11-06",
-   "due": "2026-11-20",
-   "ransomware": false,
-   "epss": 0.00621
-  }
- ],
+ "new": [],
  "recent": [
   {
    "cve": "CVE-2026-19868",
@@ -72,37 +61,48 @@
  ],
  "movers": [
   {
-   "cve": "CVE-2026-75650",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
-   "added": "2026-09-08",
-   "due": "2026-09-11",
+   "cve": "CVE-2026-73570",
+   "vendor": "Synacor",
+   "product": "Zimbra Collaboration Suite (ZCS)",
+   "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+   "added": "2026-08-21",
+   "due": "2026-08-24",
    "ransomware": false,
-   "epss": 0.99376,
-   "delta": 0.64635
+   "epss": 0.76619,
+   "delta": 0.04956
   },
   {
-   "cve": "CVE-2026-59310",
-   "vendor": "Broadcom",
-   "product": "VMware vCenter",
-   "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
-   "added": "2026-08-18",
-   "due": "2026-08-21",
-   "ransomware": true,
-   "epss": 0.61668,
-   "delta": 0.59103
+   "cve": "CVE-2025-68645",
+   "vendor": "Synacor",
+   "product": " Zimbra Collaboration Suite (ZCS)",
+   "name": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
+   "added": "2026-01-22",
+   "due": "2026-02-12",
+   "ransomware": false,
+   "epss": 0.50572,
+   "delta": 0.01699
   },
   {
-   "cve": "CVE-2026-102489",
-   "vendor": "Zammad GmbH",
-   "product": "Zammad",
-   "name": "Zammad GmbH Zammad Session Fixation Vulnerability",
-   "added": "2026-10-02",
-   "due": "2026-10-05",
+   "cve": "CVE-2021-20123",
+   "vendor": "DrayTek",
+   "product": "VigorConnect",
+   "name": "Draytek VigorConnect Path Traversal Vulnerability ",
+   "added": "2024-09-03",
+   "due": "2024-09-24",
    "ransomware": false,
-   "epss": 0.49915,
-   "delta": 0.27437
+   "epss": 0.90332,
+   "delta": 0.00678
+  },
+  {
+   "cve": "CVE-2026-19490",
+   "vendor": "Citrix",
+   "product": "NetScaler",
+   "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-09-09",
+   "due": "2026-09-12",
+   "ransomware": false,
+   "epss": 0.33262,
+   "delta": 0.00609
   },
   {
    "cve": "CVE-2025-41244",
@@ -112,19 +112,8 @@
    "added": "2025-10-30",
    "due": "2025-11-20",
    "ransomware": false,
-   "epss": 0.15841,
-   "delta": 0.07212
-  },
-  {
-   "cve": "CVE-2026-105133",
-   "vendor": "Ahsay",
-   "product": "AhsayCBS",
-   "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
-   "ransomware": false,
-   "epss": 0.84478,
-   "delta": 0.05008
+   "epss": 0.16377,
+   "delta": 0.00536
   }
  ],
  "top": [
@@ -222,10 +211,6 @@
   }
  ],
  "history": [
-  {
-   "date": "2026-10-09",
-   "count": 0
-  },
   {
    "date": "2026-10-10",
    "count": 0
@@ -341,6 +326,10 @@
   {
    "date": "2026-11-07",
    "count": 0
+  },
+  {
+   "date": "2026-11-08",
+   "count": 0
   }
  ],
  "notes": [
@@ -349,6 +338,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-07.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-08.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
