@@ -1,13 +1,94 @@
 {
  "schema": 1,
- "date": "2026-11-08",
- "generated": "2026-11-08T18:49:18+00:00",
- "catalogVersion": "2026.11.06",
- "total": 1769,
+ "date": "2026-11-09",
+ "generated": "2026-11-09T23:25:54+00:00",
+ "catalogVersion": "2026.11.09",
+ "total": 1773,
  "ransomware": 361,
  "epssOk": true,
- "new": [],
+ "new": [
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.01299
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.01014
+  },
+  {
+   "cve": "CVE-2026-123218",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.00396
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.00331
+  }
+ ],
  "recent": [
+  {
+   "cve": "CVE-2026-123218",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.00396
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.01014
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.01299
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.00331
+  },
   {
    "cve": "CVE-2026-19868",
    "vendor": "SonicWall",
@@ -17,103 +98,63 @@
    "due": "2026-11-20",
    "ransomware": false,
    "epss": 0.00621
-  },
-  {
-   "cve": "CVE-2024-27834",
-   "vendor": "Apple",
-   "product": "Multiple Products",
-   "name": "Apple Multiple Products Improper Authentication Vulnerability",
-   "added": "2026-11-04",
-   "due": "2026-11-18",
-   "ransomware": false,
-   "epss": 0.01502
-  },
-  {
-   "cve": "CVE-2026-119977",
-   "vendor": "WordPress",
-   "product": "WordPress Core",
-   "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-   "added": "2026-11-03",
-   "due": "2026-11-06",
-   "ransomware": false,
-   "epss": 0.01157
-  },
-  {
-   "cve": "CVE-2026-118527",
-   "vendor": "Ivanti",
-   "product": "Connect Secure",
-   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-   "added": "2026-10-30",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.00822
-  },
-  {
-   "cve": "CVE-2026-111357",
-   "vendor": "Ivanti",
-   "product": "Connect Secure",
-   "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-   "added": "2026-10-30",
-   "due": "2026-11-02",
-   "ransomware": false,
-   "epss": 0.00533
   }
  ],
  "movers": [
   {
-   "cve": "CVE-2026-73570",
-   "vendor": "Synacor",
-   "product": "Zimbra Collaboration Suite (ZCS)",
-   "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-   "added": "2026-08-21",
-   "due": "2026-08-24",
+   "cve": "CVE-2023-32434",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "name": "Apple Multiple Products Integer Overflow Vulnerability",
+   "added": "2023-06-23",
+   "due": "2023-07-14",
    "ransomware": false,
-   "epss": 0.76619,
-   "delta": 0.04956
+   "epss": 0.58157,
+   "delta": 0.0664
   },
   {
-   "cve": "CVE-2025-68645",
-   "vendor": "Synacor",
-   "product": " Zimbra Collaboration Suite (ZCS)",
-   "name": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
-   "added": "2026-01-22",
-   "due": "2026-02-12",
-   "ransomware": false,
-   "epss": 0.50572,
-   "delta": 0.01699
+   "cve": "CVE-2024-21338",
+   "vendor": "Microsoft",
+   "product": "Windows",
+   "name": "Microsoft Windows Kernel Exposed IOCTL with Insufficient Access Control Vulnerability",
+   "added": "2024-03-04",
+   "due": "2024-03-25",
+   "ransomware": true,
+   "epss": 0.62209,
+   "delta": 0.02399
   },
   {
-   "cve": "CVE-2021-20123",
-   "vendor": "DrayTek",
-   "product": "VigorConnect",
-   "name": "Draytek VigorConnect Path Traversal Vulnerability ",
-   "added": "2024-09-03",
-   "due": "2024-09-24",
+   "cve": "CVE-2023-41992",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "name": "Apple Multiple Products Kernel Privilege Escalation Vulnerability",
+   "added": "2023-09-25",
+   "due": "2023-10-16",
    "ransomware": false,
-   "epss": 0.90332,
-   "delta": 0.00678
+   "epss": 0.11591,
+   "delta": 0.02076
   },
   {
-   "cve": "CVE-2026-19490",
-   "vendor": "Citrix",
-   "product": "NetScaler",
-   "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-09-09",
-   "due": "2026-09-12",
+   "cve": "CVE-2023-36874",
+   "vendor": "Microsoft",
+   "product": "Windows",
+   "name": "Microsoft Windows Error Reporting Service Privilege Escalation Vulnerability",
+   "added": "2023-07-11",
+   "due": "2023-08-01",
    "ransomware": false,
-   "epss": 0.33262,
-   "delta": 0.00609
+   "epss": 0.44435,
+   "delta": 0.01871
   },
   {
-   "cve": "CVE-2025-41244",
-   "vendor": "Broadcom",
-   "product": "VMware Aria Operations and VMware Tools",
-   "name": "Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability",
-   "added": "2025-10-30",
-   "due": "2025-11-20",
+   "cve": "CVE-2026-71362",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento ",
+   "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+   "added": "2026-09-24",
+   "due": "2026-09-27",
    "ransomware": false,
-   "epss": 0.16377,
-   "delta": 0.00536
+   "epss": 0.91677,
+   "delta": 0.01186
   }
  ],
  "top": [
@@ -200,21 +241,27 @@
    "epss": 0.00689
   },
   {
-   "cve": "CVE-2026-118527",
-   "vendor": "Ivanti",
-   "product": "Connect Secure",
-   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-   "added": "2026-10-30",
-   "due": "2026-11-13",
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
    "ransomware": false,
-   "epss": 0.00822
+   "epss": 0.00331
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.01014
   }
  ],
  "history": [
-  {
-   "date": "2026-10-10",
-   "count": 0
-  },
   {
    "date": "2026-10-11",
    "count": 0
@@ -330,6 +377,10 @@
   {
    "date": "2026-11-08",
    "count": 0
+  },
+  {
+   "date": "2026-11-09",
+   "count": 4
   }
  ],
  "notes": [
@@ -338,6 +389,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-08.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-09.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
