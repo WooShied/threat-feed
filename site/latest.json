@@ -1,73 +1,12 @@
 {
  "schema": 1,
- "date": "2026-11-10",
- "generated": "2026-11-10T20:48:52+00:00",
+ "date": "2026-11-11",
+ "generated": "2026-11-11T21:23:44+00:00",
  "catalogVersion": "2026.11.10",
  "total": 1779,
  "ransomware": 361,
  "epssOk": true,
- "new": [
-  {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.01602
-  },
-  {
-   "cve": "CVE-2026-111560",
-   "vendor": "Barracuda Networks",
-   "product": "Multiple Products",
-   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.0106
-  },
-  {
-   "cve": "CVE-2026-20320",
-   "vendor": "Cisco",
-   "product": "BroadWorks",
-   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "epss": 0.00385
-  },
-  {
-   "cve": "CVE-2026-111793",
-   "vendor": "Openwave Messaging Limited",
-   "product": "Webtop Media Transcoder",
-   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "epss": 0.00274
-  },
-  {
-   "cve": "CVE-2026-124194",
-   "vendor": "Microsoft",
-   "product": "Office",
-   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "epss": null
-  },
-  {
-   "cve": "CVE-2026-125350",
-   "vendor": "Google",
-   "product": "Chromium",
-   "name": "Google Chromium Use-After-Free Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "epss": null
-  }
- ],
+ "new": [],
  "recent": [
   {
    "cve": "CVE-2026-20320",
@@ -231,26 +170,6 @@
  ],
  "due": [
   {
-   "cve": "CVE-2026-48356",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
-   "ransomware": false,
-   "epss": 0.47472
-  },
-  {
-   "cve": "CVE-2026-111497",
-   "vendor": "Google",
-   "product": "Brotli",
-   "name": "Google Brotli Unchecked Return Value Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
-   "ransomware": false,
-   "epss": 0.82641
-  },
-  {
    "cve": "CVE-2026-41709",
    "vendor": "Broadcom",
    "product": "VMware ESX",
@@ -279,13 +198,29 @@
    "due": "2026-11-12",
    "ransomware": false,
    "epss": 0.16501
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.02177
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "epss": 0.00555
   }
  ],
  "history": [
-  {
-   "date": "2026-10-12",
-   "count": 0
-  },
   {
    "date": "2026-10-13",
    "count": 2
@@ -401,6 +336,10 @@
   {
    "date": "2026-11-10",
    "count": 6
+  },
+  {
+   "date": "2026-11-11",
+   "count": 0
   }
  ],
  "notes": [
@@ -409,6 +348,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-10.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-11.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
