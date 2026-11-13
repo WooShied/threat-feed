@@ -1,13 +1,54 @@
 {
  "schema": 1,
- "date": "2026-11-12",
- "generated": "2026-11-12T21:27:45+00:00",
- "catalogVersion": "2026.11.10",
- "total": 1779,
+ "date": "2026-11-13",
+ "generated": "2026-11-13T20:53:27+00:00",
+ "catalogVersion": "2026.11.13",
+ "total": 1781,
  "ransomware": 361,
  "epssOk": true,
- "new": [],
+ "new": [
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.01274
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.00302
+  }
+ ],
  "recent": [
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.01274
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.00302
+  },
   {
    "cve": "CVE-2026-20320",
    "vendor": "Cisco",
@@ -16,7 +57,7 @@
    "added": "2026-11-10",
    "due": "2026-11-24",
    "ransomware": false,
-   "epss": 0.0082
+   "epss": 0.00976
   },
   {
    "cve": "CVE-2026-125350",
@@ -37,72 +78,19 @@
    "due": "2026-11-24",
    "ransomware": false,
    "epss": 0.0162
-  },
-  {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.08934
-  },
-  {
-   "cve": "CVE-2026-111793",
-   "vendor": "Openwave Messaging Limited",
-   "product": "Webtop Media Transcoder",
-   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "epss": 0.00638
   }
  ],
  "movers": [
   {
-   "cve": "CVE-2026-18556",
-   "vendor": "N-able",
-   "product": "N-central",
-   "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-08-04",
-   "due": "2026-08-07",
+   "cve": "CVE-2025-0994",
+   "vendor": "Trimble",
+   "product": "Cityworks",
+   "name": "Trimble Cityworks Deserialization Vulnerability",
+   "added": "2025-02-07",
+   "due": "2025-02-28",
    "ransomware": false,
-   "epss": 0.43884,
-   "delta": 0.36002
-  },
-  {
-   "cve": "CVE-2026-56164",
-   "vendor": "Microsoft",
-   "product": "SharePoint Server",
-   "name": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-   "added": "2026-07-14",
-   "due": "2026-07-17",
-   "ransomware": false,
-   "epss": 0.2733,
-   "delta": 0.26319
-  },
-  {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.08934,
-   "delta": 0.07332
-  },
-  {
-   "cve": "CVE-2026-81963",
-   "vendor": "Microsoft",
-   "product": "Windows",
-   "name": "Microsoft Windows Link Following Vulnerability",
-   "added": "2026-09-08",
-   "due": "2026-09-22",
-   "ransomware": false,
-   "epss": 0.07115,
-   "delta": 0.06722
+   "epss": 0.3522,
+   "delta": 0.03911
   },
   {
    "cve": "CVE-2026-111560",
@@ -112,8 +100,41 @@
    "added": "2026-11-10",
    "due": "2026-11-13",
    "ransomware": false,
-   "epss": 0.06196,
-   "delta": 0.05136
+   "epss": 0.09082,
+   "delta": 0.02886
+  },
+  {
+   "cve": "CVE-2026-116606",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "epss": 0.10947,
+   "delta": 0.02013
+  },
+  {
+   "cve": "CVE-2026-33634",
+   "vendor": "Aquasecurity",
+   "product": "Trivy",
+   "name": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
+   "added": "2026-03-26",
+   "due": "2026-04-09",
+   "ransomware": false,
+   "epss": 0.61515,
+   "delta": 0.0109
+  },
+  {
+   "cve": "CVE-2025-47813",
+   "vendor": "Wing FTP Server",
+   "product": "Wing FTP Server",
+   "name": "Wing FTP Server Information Disclosure Vulnerability",
+   "added": "2026-03-16",
+   "due": "2026-03-30",
+   "ransomware": false,
+   "epss": 0.63245,
+   "delta": 0.00733
   }
  ],
  "top": [
@@ -170,46 +191,6 @@
  ],
  "due": [
   {
-   "cve": "CVE-2026-123218",
-   "vendor": "IBM",
-   "product": "Aspera Faspex",
-   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "epss": 0.00535
-  },
-  {
-   "cve": "CVE-2026-123158",
-   "vendor": "OpenBSD",
-   "product": "OpenSSH",
-   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "epss": 0.189
-  },
-  {
-   "cve": "CVE-2026-116779",
-   "vendor": "SignalWire",
-   "product": "FreeSwitch",
-   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "epss": 0.02473
-  },
-  {
-   "cve": "CVE-2026-102895",
-   "vendor": "GPUStack",
-   "product": "GPUStack",
-   "name": "GPUStack Improper Authentication Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "epss": 0.00517
-  },
-  {
    "cve": "CVE-2026-116606",
    "vendor": "Barracuda Networks",
    "product": "Barracuda Email Security Gateway (ESG)",
@@ -217,14 +198,50 @@
    "added": "2026-11-10",
    "due": "2026-11-13",
    "ransomware": false,
-   "epss": 0.08934
+   "epss": 0.10947
+  },
+  {
+   "cve": "CVE-2026-111560",
+   "vendor": "Barracuda Networks",
+   "product": "Multiple Products",
+   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "epss": 0.09082
+  },
+  {
+   "cve": "CVE-2026-118527",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "added": "2026-10-30",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "epss": 0.00822
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.00302
+  },
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "epss": 0.01274
   }
  ],
  "history": [
-  {
-   "date": "2026-10-14",
-   "count": 4
-  },
   {
    "date": "2026-10-15",
    "count": 1
@@ -340,6 +357,10 @@
   {
    "date": "2026-11-12",
    "count": 0
+  },
+  {
+   "date": "2026-11-13",
+   "count": 2
   }
  ],
  "notes": [
@@ -348,6 +369,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-12.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-13.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }

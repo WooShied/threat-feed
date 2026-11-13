@@ -13,7 +13,7 @@ Every morning a GitHub Action pulls the [CISA Known Exploited Vulnerabilities](h
 Digests live in [`digests/`](digests/), organized by year and month.
 
 <!-- digest:start -->
-**Latest digest: [2026-11-12](digests/2026/11/2026-11-12.md)** · 1,779 KEV entries · 0 new
+**Latest digest: [2026-11-13](digests/2026/11/2026-11-13.md)** · 1,781 KEV entries · 2 new
 
 Highest EPSS right now:
 
