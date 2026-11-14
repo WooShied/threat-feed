@@ -1,33 +1,12 @@
 {
  "schema": 1,
- "date": "2026-11-13",
- "generated": "2026-11-13T20:53:27+00:00",
+ "date": "2026-11-14",
+ "generated": "2026-11-14T19:08:48+00:00",
  "catalogVersion": "2026.11.13",
  "total": 1781,
  "ransomware": 361,
  "epssOk": true,
- "new": [
-  {
-   "cve": "CVE-2026-123039",
-   "vendor": "Check Point",
-   "product": "Multiple Products",
-   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-   "added": "2026-11-13",
-   "due": "2026-11-16",
-   "ransomware": false,
-   "epss": 0.01274
-  },
-  {
-   "cve": "CVE-2026-114713",
-   "vendor": "UnrealIRCd",
-   "product": "UnrealIRCd",
-   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-   "added": "2026-11-13",
-   "due": "2026-11-16",
-   "ransomware": false,
-   "epss": 0.00302
-  }
- ],
+ "new": [],
  "recent": [
   {
    "cve": "CVE-2026-123039",
@@ -37,7 +16,7 @@
    "added": "2026-11-13",
    "due": "2026-11-16",
    "ransomware": false,
-   "epss": 0.01274
+   "epss": 0.02191
   },
   {
    "cve": "CVE-2026-114713",
@@ -47,7 +26,7 @@
    "added": "2026-11-13",
    "due": "2026-11-16",
    "ransomware": false,
-   "epss": 0.00302
+   "epss": 0.00508
   },
   {
    "cve": "CVE-2026-20320",
@@ -82,59 +61,59 @@
  ],
  "movers": [
   {
-   "cve": "CVE-2025-0994",
-   "vendor": "Trimble",
-   "product": "Cityworks",
-   "name": "Trimble Cityworks Deserialization Vulnerability",
-   "added": "2025-02-07",
-   "due": "2025-02-28",
+   "cve": "CVE-2026-28318",
+   "vendor": "SolarWinds",
+   "product": "Serv-U",
+   "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
+   "added": "2026-06-05",
+   "due": "2026-06-19",
    "ransomware": false,
-   "epss": 0.3522,
-   "delta": 0.03911
+   "epss": 0.87267,
+   "delta": 0.39266
   },
   {
-   "cve": "CVE-2026-111560",
-   "vendor": "Barracuda Networks",
-   "product": "Multiple Products",
-   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
+   "cve": "CVE-2026-96656",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
    "ransomware": false,
-   "epss": 0.09082,
-   "delta": 0.02886
+   "epss": 0.19767,
+   "delta": 0.17982
   },
   {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
+   "cve": "CVE-2026-96654",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
    "ransomware": false,
-   "epss": 0.10947,
-   "delta": 0.02013
+   "epss": 0.12689,
+   "delta": 0.1074
   },
   {
-   "cve": "CVE-2026-33634",
-   "vendor": "Aquasecurity",
-   "product": "Trivy",
-   "name": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
-   "added": "2026-03-26",
-   "due": "2026-04-09",
+   "cve": "CVE-2022-37055",
+   "vendor": "D-Link",
+   "product": "Routers",
+   "name": "D-Link Routers Buffer Overflow Vulnerability",
+   "added": "2025-12-08",
+   "due": "2025-12-29",
    "ransomware": false,
-   "epss": 0.61515,
-   "delta": 0.0109
+   "epss": 0.5741,
+   "delta": 0.01879
   },
   {
-   "cve": "CVE-2025-47813",
-   "vendor": "Wing FTP Server",
-   "product": "Wing FTP Server",
-   "name": "Wing FTP Server Information Disclosure Vulnerability",
-   "added": "2026-03-16",
-   "due": "2026-03-30",
+   "cve": "CVE-2020-13671",
+   "vendor": "Drupal",
+   "product": "Drupal core",
+   "name": "Drupal core Un-restricted Upload of File",
+   "added": "2022-01-18",
+   "due": "2022-07-18",
    "ransomware": false,
-   "epss": 0.63245,
-   "delta": 0.00733
+   "epss": 0.32568,
+   "delta": 0.01623
   }
  ],
  "top": [
@@ -191,34 +170,14 @@
  ],
  "due": [
   {
-   "cve": "CVE-2026-116606",
-   "vendor": "Barracuda Networks",
-   "product": "Barracuda Email Security Gateway (ESG)",
-   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.10947
-  },
-  {
-   "cve": "CVE-2026-111560",
-   "vendor": "Barracuda Networks",
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
    "product": "Multiple Products",
-   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-13",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
    "ransomware": false,
-   "epss": 0.09082
-  },
-  {
-   "cve": "CVE-2026-118527",
-   "vendor": "Ivanti",
-   "product": "Connect Secure",
-   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-   "added": "2026-10-30",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "epss": 0.00822
+   "epss": 0.02191
   },
   {
    "cve": "CVE-2026-114713",
@@ -228,24 +187,30 @@
    "added": "2026-11-13",
    "due": "2026-11-16",
    "ransomware": false,
-   "epss": 0.00302
+   "epss": 0.00508
   },
   {
-   "cve": "CVE-2026-123039",
-   "vendor": "Check Point",
+   "cve": "CVE-2024-27834",
+   "vendor": "Apple",
    "product": "Multiple Products",
-   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-   "added": "2026-11-13",
-   "due": "2026-11-16",
+   "name": "Apple Multiple Products Improper Authentication Vulnerability",
+   "added": "2026-11-04",
+   "due": "2026-11-18",
    "ransomware": false,
-   "epss": 0.01274
+   "epss": 0.01502
+  },
+  {
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "added": "2026-11-06",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "epss": 0.00532
   }
  ],
  "history": [
-  {
-   "date": "2026-10-15",
-   "count": 1
-  },
   {
    "date": "2026-10-16",
    "count": 2
@@ -361,6 +326,10 @@
   {
    "date": "2026-11-13",
    "count": 2
+  },
+  {
+   "date": "2026-11-14",
+   "count": 0
   }
  ],
  "notes": [
@@ -369,6 +338,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-13.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-14.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
