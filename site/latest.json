@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "date": "2026-11-14",
- "generated": "2026-11-14T19:08:48+00:00",
+ "date": "2026-11-15",
+ "generated": "2026-11-15T19:45:50+00:00",
  "catalogVersion": "2026.11.13",
  "total": 1781,
  "ransomware": 361,
@@ -61,59 +61,59 @@
  ],
  "movers": [
   {
-   "cve": "CVE-2026-28318",
-   "vendor": "SolarWinds",
-   "product": "Serv-U",
-   "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-   "added": "2026-06-05",
-   "due": "2026-06-19",
+   "cve": "CVE-2023-36025",
+   "vendor": "Microsoft",
+   "product": "Windows",
+   "name": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
+   "added": "2023-11-14",
+   "due": "2023-12-05",
    "ransomware": false,
-   "epss": 0.87267,
-   "delta": 0.39266
+   "epss": 0.90449,
+   "delta": 0.02253
   },
   {
-   "cve": "CVE-2026-96656",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
-   "added": "2026-10-20",
-   "due": "2026-10-23",
+   "cve": "CVE-2011-3402",
+   "vendor": "Microsoft",
+   "product": "Windows",
+   "name": "Microsoft Windows Remote Code Execution Vulnerability",
+   "added": "2025-10-06",
+   "due": "2025-10-27",
    "ransomware": false,
-   "epss": 0.19767,
-   "delta": 0.17982
+   "epss": 0.7928,
+   "delta": 0.00995
   },
   {
-   "cve": "CVE-2026-96654",
-   "vendor": "Plex",
-   "product": "Media Server",
-   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-   "added": "2026-10-20",
-   "due": "2026-10-23",
+   "cve": "CVE-2026-33017",
+   "vendor": "Langflow",
+   "product": "Langflow",
+   "name": "Langflow Code Injection Vulnerability",
+   "added": "2026-03-25",
+   "due": "2026-04-08",
    "ransomware": false,
-   "epss": 0.12689,
-   "delta": 0.1074
+   "epss": 0.96814,
+   "delta": 0.00464
   },
   {
-   "cve": "CVE-2022-37055",
-   "vendor": "D-Link",
-   "product": "Routers",
-   "name": "D-Link Routers Buffer Overflow Vulnerability",
-   "added": "2025-12-08",
-   "due": "2025-12-29",
+   "cve": "CVE-2026-72898",
+   "vendor": "Metabase",
+   "product": "Metabase",
+   "name": "Metabase SQL Injection Vulnerability",
+   "added": "2026-08-11",
+   "due": "2026-08-14",
    "ransomware": false,
-   "epss": 0.5741,
-   "delta": 0.01879
+   "epss": 0.98513,
+   "delta": 0.00305
   },
   {
-   "cve": "CVE-2020-13671",
-   "vendor": "Drupal",
-   "product": "Drupal core",
-   "name": "Drupal core Un-restricted Upload of File",
-   "added": "2022-01-18",
-   "due": "2022-07-18",
+   "cve": "CVE-2016-3976",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Directory Traversal Vulnerability",
+   "added": "2021-11-03",
+   "due": "2022-05-03",
    "ransomware": false,
-   "epss": 0.32568,
-   "delta": 0.01623
+   "epss": 0.47532,
+   "delta": 0.0028
   }
  ],
  "top": [
@@ -211,10 +211,6 @@
   }
  ],
  "history": [
-  {
-   "date": "2026-10-16",
-   "count": 2
-  },
   {
    "date": "2026-10-17",
    "count": 0
@@ -330,6 +326,10 @@
   {
    "date": "2026-11-14",
    "count": 0
+  },
+  {
+   "date": "2026-11-15",
+   "count": 0
   }
  ],
  "notes": [
@@ -338,6 +338,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-14.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-15.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
