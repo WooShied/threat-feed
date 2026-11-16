@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "date": "2026-11-15",
- "generated": "2026-11-15T19:45:50+00:00",
+ "date": "2026-11-16",
+ "generated": "2026-11-16T23:22:42+00:00",
  "catalogVersion": "2026.11.13",
  "total": 1781,
  "ransomware": 361,
@@ -61,59 +61,59 @@
  ],
  "movers": [
   {
-   "cve": "CVE-2023-36025",
+   "cve": "CVE-2026-50522",
    "vendor": "Microsoft",
-   "product": "Windows",
-   "name": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
-   "added": "2023-11-14",
-   "due": "2023-12-05",
+   "product": "SharePoint",
+   "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-07-22",
+   "due": "2026-07-25",
    "ransomware": false,
-   "epss": 0.90449,
-   "delta": 0.02253
+   "epss": 0.8187,
+   "delta": 0.78828
   },
   {
-   "cve": "CVE-2011-3402",
-   "vendor": "Microsoft",
-   "product": "Windows",
-   "name": "Microsoft Windows Remote Code Execution Vulnerability",
-   "added": "2025-10-06",
-   "due": "2025-10-27",
-   "ransomware": false,
-   "epss": 0.7928,
-   "delta": 0.00995
-  },
-  {
-   "cve": "CVE-2026-33017",
-   "vendor": "Langflow",
-   "product": "Langflow",
-   "name": "Langflow Code Injection Vulnerability",
-   "added": "2026-03-25",
-   "due": "2026-04-08",
-   "ransomware": false,
-   "epss": 0.96814,
-   "delta": 0.00464
-  },
-  {
-   "cve": "CVE-2026-72898",
-   "vendor": "Metabase",
-   "product": "Metabase",
-   "name": "Metabase SQL Injection Vulnerability",
-   "added": "2026-08-11",
-   "due": "2026-08-14",
-   "ransomware": false,
-   "epss": 0.98513,
-   "delta": 0.00305
-  },
-  {
-   "cve": "CVE-2016-3976",
-   "vendor": "SAP",
-   "product": "NetWeaver",
-   "name": "SAP NetWeaver Directory Traversal Vulnerability",
+   "cve": "CVE-2015-4852",
+   "vendor": "Oracle",
+   "product": "WebLogic Server",
+   "name": "Oracle WebLogic Server Deserialization of Untrusted Data Vulnerability",
    "added": "2021-11-03",
    "due": "2022-05-03",
    "ransomware": false,
-   "epss": 0.47532,
-   "delta": 0.0028
+   "epss": 0.98285,
+   "delta": 0.03294
+  },
+  {
+   "cve": "CVE-2021-25297",
+   "vendor": "Nagios",
+   "product": "Nagios XI",
+   "name": "Nagios XI OS Command Injection",
+   "added": "2022-01-18",
+   "due": "2022-02-01",
+   "ransomware": false,
+   "epss": 0.58114,
+   "delta": 0.01455
+  },
+  {
+   "cve": "CVE-2021-4102",
+   "vendor": "Google",
+   "product": "Chromium V8",
+   "name": "Google Chromium V8 Use-After-Free Vulnerability",
+   "added": "2021-12-15",
+   "due": "2021-12-29",
+   "ransomware": false,
+   "epss": 0.08534,
+   "delta": 0.00698
+  },
+  {
+   "cve": "CVE-2025-7775",
+   "vendor": "Citrix",
+   "product": "NetScaler",
+   "name": "Citrix NetScaler Memory Overflow Vulnerability",
+   "added": "2025-08-26",
+   "due": "2025-08-28",
+   "ransomware": false,
+   "epss": 0.21073,
+   "delta": 0.00403
   }
  ],
  "top": [
@@ -211,10 +211,6 @@
   }
  ],
  "history": [
-  {
-   "date": "2026-10-17",
-   "count": 0
-  },
   {
    "date": "2026-10-18",
    "count": 0
@@ -330,6 +326,10 @@
   {
    "date": "2026-11-15",
    "count": 0
+  },
+  {
+   "date": "2026-11-16",
+   "count": 0
   }
  ],
  "notes": [
@@ -338,6 +338,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-15.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-16.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
