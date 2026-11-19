@@ -1,53 +1,12 @@
 {
  "schema": 1,
- "date": "2026-11-18",
- "generated": "2026-11-18T21:54:19+00:00",
+ "date": "2026-11-19",
+ "generated": "2026-11-19T22:08:20+00:00",
  "catalogVersion": "2026.11.18",
  "total": 1786,
  "ransomware": 361,
  "epssOk": true,
- "new": [
-  {
-   "cve": "CVE-2026-40217",
-   "vendor": "BerriAI",
-   "product": "LiteLLM",
-   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-12-02",
-   "ransomware": false,
-   "epss": 0.1702
-  },
-  {
-   "cve": "CVE-2026-90817",
-   "vendor": "Vanderbilt University",
-   "product": "Research Electronic Data Capture (REDCap)",
-   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.03749
-  },
-  {
-   "cve": "CVE-2024-10441",
-   "vendor": "Synology",
-   "product": "DiskStation Manager (DSM)",
-   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.01251
-  },
-  {
-   "cve": "CVE-2026-90436",
-   "vendor": "Apache",
-   "product": "Axis",
-   "name": "Apache Axis Unsafe Reflection Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.01128
-  }
- ],
+ "new": [],
  "recent": [
   {
    "cve": "CVE-2026-90817",
@@ -57,7 +16,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.03749
+   "epss": 0.25187
   },
   {
    "cve": "CVE-2026-90436",
@@ -67,7 +26,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.01128
+   "epss": 0.01773
   },
   {
    "cve": "CVE-2026-40217",
@@ -77,7 +36,7 @@
    "added": "2026-11-18",
    "due": "2026-12-02",
    "ransomware": false,
-   "epss": 0.1702
+   "epss": 0.61911
   },
   {
    "cve": "CVE-2024-10441",
@@ -87,7 +46,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.01251
+   "epss": 0.0215
   },
   {
    "cve": "CVE-2026-115731",
@@ -102,59 +61,59 @@
  ],
  "movers": [
   {
-   "cve": "CVE-2021-3199",
-   "vendor": "ONLYOFFICE",
-   "product": "Docs",
-   "name": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
+   "cve": "CVE-2026-40217",
+   "vendor": "BerriAI",
+   "product": "LiteLLM",
+   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-12-02",
    "ransomware": false,
-   "epss": 0.88139,
-   "delta": 0.57895
+   "epss": 0.61911,
+   "delta": 0.44891
   },
   {
-   "cve": "CVE-2026-116779",
-   "vendor": "SignalWire",
-   "product": "FreeSwitch",
-   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
+   "cve": "CVE-2019-19006",
+   "vendor": "Sangoma",
+   "product": "FreePBX",
+   "name": "Sangoma FreePBX Improper Authentication Vulnerability",
+   "added": "2026-02-03",
+   "due": "2026-02-24",
    "ransomware": false,
-   "epss": 0.22081,
-   "delta": 0.19608
+   "epss": 0.94476,
+   "delta": 0.39535
   },
   {
-   "cve": "CVE-2026-48356",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
+   "cve": "CVE-2016-2388",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Information Disclosure Vulnerability",
+   "added": "2022-06-09",
+   "due": "2022-06-30",
    "ransomware": false,
-   "epss": 0.6639,
-   "delta": 0.18918
+   "epss": 0.86274,
+   "delta": 0.34068
   },
   {
-   "cve": "CVE-2026-102895",
-   "vendor": "GPUStack",
-   "product": "GPUStack",
-   "name": "GPUStack Improper Authentication Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
+   "cve": "CVE-2026-90817",
+   "vendor": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.0573,
-   "delta": 0.05213
+   "epss": 0.25187,
+   "delta": 0.21438
   },
   {
-   "cve": "CVE-2025-68461",
-   "vendor": "Roundcube",
-   "product": "Webmail",
-   "name": "RoundCube Webmail Cross-site Scripting Vulnerability",
-   "added": "2026-02-20",
-   "due": "2026-03-13",
+   "cve": "CVE-2016-4657",
+   "vendor": "Apple",
+   "product": "iOS",
+   "name": "Apple iOS Webkit Memory Corruption Vulnerability",
+   "added": "2022-05-24",
+   "due": "2022-06-14",
    "ransomware": false,
-   "epss": 0.28311,
-   "delta": 0.00904
+   "epss": 0.69044,
+   "delta": 0.02256
   }
  ],
  "top": [
@@ -211,16 +170,6 @@
  ],
  "due": [
   {
-   "cve": "CVE-2024-27834",
-   "vendor": "Apple",
-   "product": "Multiple Products",
-   "name": "Apple Multiple Products Improper Authentication Vulnerability",
-   "added": "2026-11-04",
-   "due": "2026-11-18",
-   "ransomware": false,
-   "epss": 0.01502
-  },
-  {
    "cve": "CVE-2026-19868",
    "vendor": "SonicWall",
    "product": "SonicOS SSLVPN",
@@ -231,16 +180,6 @@
    "epss": 0.00532
   },
   {
-   "cve": "CVE-2024-10441",
-   "vendor": "Synology",
-   "product": "DiskStation Manager (DSM)",
-   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.01251
-  },
-  {
    "cve": "CVE-2026-90817",
    "vendor": "Vanderbilt University",
    "product": "Research Electronic Data Capture (REDCap)",
@@ -248,7 +187,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.03749
+   "epss": 0.25187
   },
   {
    "cve": "CVE-2026-90436",
@@ -258,14 +197,30 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.01128
+   "epss": 0.01773
+  },
+  {
+   "cve": "CVE-2024-10441",
+   "vendor": "Synology",
+   "product": "DiskStation Manager (DSM)",
+   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "epss": 0.0215
+  },
+  {
+   "cve": "CVE-2026-20320",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "epss": 0.00976
   }
  ],
  "history": [
-  {
-   "date": "2026-10-20",
-   "count": 6
-  },
   {
    "date": "2026-10-21",
    "count": 0
@@ -381,6 +336,10 @@
   {
    "date": "2026-11-18",
    "count": 4
+  },
+  {
+   "date": "2026-11-19",
+   "count": 0
   }
  ],
  "notes": [
@@ -389,6 +348,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-18.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-19.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
