@@ -1,13 +1,94 @@
 {
  "schema": 1,
- "date": "2026-11-19",
- "generated": "2026-11-19T22:08:20+00:00",
- "catalogVersion": "2026.11.18",
- "total": 1786,
+ "date": "2026-11-20",
+ "generated": "2026-11-20T21:47:31+00:00",
+ "catalogVersion": "2026.11.20",
+ "total": 1790,
  "ransomware": 361,
  "epssOk": true,
- "new": [],
+ "new": [
+  {
+   "cve": "CVE-2026-129448",
+   "vendor": "Apache",
+   "product": "Roller",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.01191
+  },
+  {
+   "cve": "CVE-2026-123890",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00843
+  },
+  {
+   "cve": "CVE-2026-76466",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00417
+  },
+  {
+   "cve": "CVE-2025-42884",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00276
+  }
+ ],
  "recent": [
+  {
+   "cve": "CVE-2026-76466",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00417
+  },
+  {
+   "cve": "CVE-2026-129448",
+   "vendor": "Apache",
+   "product": "Roller",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.01191
+  },
+  {
+   "cve": "CVE-2026-123890",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00843
+  },
+  {
+   "cve": "CVE-2025-42884",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "epss": 0.00276
+  },
   {
    "cve": "CVE-2026-90817",
    "vendor": "Vanderbilt University",
@@ -16,51 +97,22 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.25187
-  },
-  {
-   "cve": "CVE-2026-90436",
-   "vendor": "Apache",
-   "product": "Axis",
-   "name": "Apache Axis Unsafe Reflection Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.01773
-  },
-  {
-   "cve": "CVE-2026-40217",
-   "vendor": "BerriAI",
-   "product": "LiteLLM",
-   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-12-02",
-   "ransomware": false,
-   "epss": 0.61911
-  },
-  {
-   "cve": "CVE-2024-10441",
-   "vendor": "Synology",
-   "product": "DiskStation Manager (DSM)",
-   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "epss": 0.0215
-  },
-  {
-   "cve": "CVE-2026-115731",
-   "vendor": "Perforce",
-   "product": "Puppet Enterprise",
-   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-   "added": "2026-11-17",
-   "due": "2026-12-01",
-   "ransomware": false,
-   "epss": 0.00691
+   "epss": 0.25657
   }
  ],
  "movers": [
   {
+   "cve": "CVE-2014-0780",
+   "vendor": "InduSoft",
+   "product": "Web Studio",
+   "name": "InduSoft Web Studio NTWebServer Directory Traversal Vulnerability",
+   "added": "2022-04-15",
+   "due": "2022-05-06",
+   "ransomware": false,
+   "epss": 0.97027,
+   "delta": 0.22348
+  },
+  {
    "cve": "CVE-2026-40217",
    "vendor": "BerriAI",
    "product": "LiteLLM",
@@ -68,52 +120,41 @@
    "added": "2026-11-18",
    "due": "2026-12-02",
    "ransomware": false,
-   "epss": 0.61911,
-   "delta": 0.44891
+   "epss": 0.68902,
+   "delta": 0.06991
   },
   {
-   "cve": "CVE-2019-19006",
-   "vendor": "Sangoma",
-   "product": "FreePBX",
-   "name": "Sangoma FreePBX Improper Authentication Vulnerability",
-   "added": "2026-02-03",
-   "due": "2026-02-24",
+   "cve": "CVE-2026-8452",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC and NetScaler Gateway",
+   "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "added": "2026-08-26",
+   "due": "2026-08-29",
    "ransomware": false,
-   "epss": 0.94476,
-   "delta": 0.39535
+   "epss": 0.03579,
+   "delta": 0.02568
   },
   {
-   "cve": "CVE-2016-2388",
-   "vendor": "SAP",
-   "product": "NetWeaver",
-   "name": "SAP NetWeaver Information Disclosure Vulnerability",
-   "added": "2022-06-09",
-   "due": "2022-06-30",
+   "cve": "CVE-2026-64849",
+   "vendor": "MLflow",
+   "product": "MLflow",
+   "name": "MLflow Server-Side Request Forgery Vulnerability",
+   "added": "2026-08-19",
+   "due": "2026-09-02",
    "ransomware": false,
-   "epss": 0.86274,
-   "delta": 0.34068
+   "epss": 0.10929,
+   "delta": 0.00912
   },
   {
-   "cve": "CVE-2026-90817",
-   "vendor": "Vanderbilt University",
-   "product": "Research Electronic Data Capture (REDCap)",
-   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-   "added": "2026-11-18",
-   "due": "2026-11-21",
+   "cve": "CVE-2026-53362",
+   "vendor": "Linux",
+   "product": "Kernel",
+   "name": "Linux Kernel Unspecified Vulnerability",
+   "added": "2026-08-27",
+   "due": "2026-08-30",
    "ransomware": false,
-   "epss": 0.25187,
-   "delta": 0.21438
-  },
-  {
-   "cve": "CVE-2016-4657",
-   "vendor": "Apple",
-   "product": "iOS",
-   "name": "Apple iOS Webkit Memory Corruption Vulnerability",
-   "added": "2022-05-24",
-   "due": "2022-06-14",
-   "ransomware": false,
-   "epss": 0.69044,
-   "delta": 0.02256
+   "epss": 0.0134,
+   "delta": 0.00631
   }
  ],
  "top": [
@@ -187,7 +228,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.25187
+   "epss": 0.25657
   },
   {
    "cve": "CVE-2026-90436",
@@ -197,7 +238,7 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.01773
+   "epss": 0.01833
   },
   {
    "cve": "CVE-2024-10441",
@@ -207,24 +248,20 @@
    "added": "2026-11-18",
    "due": "2026-11-21",
    "ransomware": false,
-   "epss": 0.0215
+   "epss": 0.02415
   },
   {
-   "cve": "CVE-2026-20320",
-   "vendor": "Cisco",
-   "product": "BroadWorks",
-   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
+   "cve": "CVE-2026-129448",
+   "vendor": "Apache",
+   "product": "Roller",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
    "ransomware": false,
-   "epss": 0.00976
+   "epss": 0.01191
   }
  ],
  "history": [
-  {
-   "date": "2026-10-21",
-   "count": 0
-  },
   {
    "date": "2026-10-22",
    "count": 0
@@ -340,6 +377,10 @@
   {
    "date": "2026-11-19",
    "count": 0
+  },
+  {
+   "date": "2026-11-20",
+   "count": 4
   }
  ],
  "notes": [
@@ -348,6 +389,6 @@
    "text": "Ivanti Connect Secure keeps landing in KEV: three entries since October, all on internet-facing VPNs."
   }
  ],
- "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-19.md",
+ "digestUrl": "https://github.com/WooShied/threat-feed/blob/main/digests/2026/11/2026-11-20.md",
  "repoUrl": "https://github.com/WooShied/threat-feed"
 }
